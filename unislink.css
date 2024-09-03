@@ -1,0 +1,723 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1090px;
+  margin: 0px auto;
+}
+section {
+  margin-bottom: 90px;
+}
+.container span {
+  display: block;
+}
+.container a:hover {
+  color: blueviolet;
+}
+nav {
+  background-color: rgb(252, 11, 11);
+  font-size: small;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: medium;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+}
+.header ul li {
+  padding: 13px;
+  margin-top: 4px;
+}
+.header ul li a {
+  color: black;
+  text-decoration: none;
+}
+.article1 span {
+  display: block;
+}
+.article1 {
+  margin-left: 40px;
+}
+.article1 h1 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 1.5;
+}
+.article1 p {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-top: 5%;
+  line-height: 1.5;
+}
+.article1 a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: white;
+  display: inline-block;
+  margin-top: 6%;
+  border-radius: 4px;
+  border: 1px black solid;
+  background-color: red;
+  padding: 10px 20px;
+}
+.maincontainer .sect2 {
+  display: inline;
+  border: 1px solid red;
+}
+.image img {
+  width: 100%;
+}
+.maincontainer {
+  position: relative;
+}
+.maincontainer .article1 {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+}
+.section3 h2 {
+  padding-bottom: 40px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.section3 p {
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section4 .row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.section4 h3 {
+  margin: 5px 0px 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.section4 .parag3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.section5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section5 .parag3 {
+  flex-basis: 50%;
+}
+.section5 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  margin-top: 40px;
+  line-height: 25px;
+}
+.section5 a {
+  display: block;
+  padding-top: 10px;
+  text-decoration: none;
+  color: red;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section6 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
+.section6 p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 28px;
+}
+.h3sec6 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.section6 .box3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section6 .box3 .col1 {
+  flex-basis: 30%;
+  padding: 20px 0;
+}
+.section6 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 4% 0;
+}
+.section6 .parag3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+}
+.section6 a {
+  color: red;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.section7 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: left;
+}
+.section7 .art1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section7 .art1 .rows {
+  flex-basis: 50%;
+  padding-top: 45px;
+}
+.section7 img {
+  padding-top: 30px;
+}
+.section7 .art2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section7 .art2 .rows {
+  flex-basis: 50%;
+  padding-top: 45px;
+}
+.section7 .art2 img {
+  order: 2;
+}
+.section7 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.section7 .art1 p,
+.section7 .art2 p {
+  margin: 17px 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section7 .art1 .rows span,
+.section7 .art2 .rows span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 40px 0;
+}
+.section7 .art1 .rows a,
+.section7 .art2 .rows a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px black solid;
+  color: white;
+  background-color: red;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.section7 .rows a:hover {
+  color: blueviolet;
+}
+.section8 h2 {
+  margin-top: 15%;
+  margin-bottom: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: xx-large;
+}
+.section8 .parag1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 6%;
+  line-height: 1.5;
+}
+.section8 .whole {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 6%;
+}
+.section8 .order {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  padding-inline: 10px;
+}
+.section8 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
+.section8 .parag3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: smaller;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+.section8 .whole .order::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
+  position: relative;
+  top: 26px;
+  left: -50px;
+  color: #2895c3;
+  font-size: 1.5rem;
+}
+
+.section9 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section9 .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.section9 .row4 {
+  flex-basis: 33.33%;
+  padding-block: 19px;
+}
+.section9 .row4 h3 {
+  margin: 5px 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
+.section9 .row4 .parag3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: small;
+}
+.section9 img {
+  margin-top: 15px;
+}
+.section10 {
+  margin-top: 13%;
+}
+.section10 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.section10 .parag1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7;
+}
+.section10 .sech3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 55px 0;
+}
+.section10 .colin {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.section10 .colin .rolin {
+  display: flex;
+  gap: 20px;
+  flex-basis: 47%;
+}
+.section10 .colin .rolin img {
+  width: 100%;
+}
+.section10 .colin .rolin .rolin1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.section10 .colin h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+.section10 .colin .parag3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.card h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin: 10% 0 6%;
+}
+.container .card .images {
+  display: flex;
+  margin-bottom: 15px;
+}
+.container .card img {
+  width: 100%;
+  padding-inline: 20px;
+  padding-top: 10px;
+}
+.cards {
+  padding-bottom: 50px;
+}
+.card .images .subcard {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.card .images .subcard h3 {
+  font-weight: 500;
+  font-size: large;
+  margin: 15px 0;
+}
+.card .images .subcard p {
+  font-weight: 400;
+  font-size: medium;
+  margin: 15px 0;
+}
+.card .images .cards:hover {
+  background-color: beige;
+  box-shadow: 0 0 10px 0 black;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+.card .images .subcard a {
+  color: red;
+  font-weight: 500;
+  text-decoration: none;
+}
+.card .area {
+  text-align: center;
+  margin-bottom: 16%;
+}
+.card .area a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: small;
+  text-align: center;
+  text-decoration: none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+.container .card a:hover {
+  color: blueviolet;
+}
+footer {
+  margin-top: 10%;
+}
+.footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  padding-block: 100px;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer .bottom {
+  display: flex;
+  column-gap: 30px;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+.footer .roww {
+  flex-basis: 20%;
+  text-align: left;
+}
+.footer .roww .i {
+  padding-bottom: 4px;
+}
+.footer .roww .o {
+  padding-top: 4px;
+}
+.footer .roww ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-transform: capitalize;
+}
+.footer .roww ul li form {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.footer .roww ul li form input {
+  padding: 2px;
+}
+.footer .final {
+  text-align: center;
+}
+.footer .final ul {
+  padding-bottom: 20px;
+}
+.footer .final ul li {
+  display: inline;
+  padding: 4px;
+}
+.footer .final ul li:first-child {
+  border-right: black 1px solid;
+}
+.footer p {
+  color: rgb(56, 54, 54, 0.5);
+}
+.footer .parag2 {
+  color: #0795b1;
+}
+.fa-brands {
+  margin: 15% 2%;
+  background-color: red;
+  color: white;
+  border: 8px solid red;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.fa-solid {
+  background-color: red;
+  color: white;
+  border: 8.5px solid red;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.fa-linkedin-in {
+  margin-right: 5%;
+  background-color: red;
+  color: white;
+  border: 9px solid red;
+  border-radius: 25px;
+  font-size: 16px;
+}
+@media all and (max-width: 570px) {
+  .container {
+    padding-inline: 5px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    /* overflow: hidden; */
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  .wholetop {
+    font-size: 10px;
+  }
+  .hide {
+    font-size: 10px;
+  }
+  .head img {
+    width: 70%;
+    margin-left: 15px;
+  }
+  .maincontainer .article1 {
+    margin-left: 1px;
+    top: 25%;
+  }
+  .article1 h1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .article1 p {
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .article1 .sect2 a {
+    font-size: 10px;
+    text-decoration: none;
+    padding: 8px 7px;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+  }
+  .section3 h2 {
+    font-size: 2.7em;
+    text-align: center;
+  }
+  .section3 .parag1 {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .section4 .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section4 .row h3 {
+    font-size: 2em;
+  }
+  .section4 .parag3 {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .section5 {
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+  }
+  .section5 .parag3 {
+    font-size: 0.8em;
+  }
+  .section5 img {
+    width: 50%;
+    align-self: center;
+  }
+  .section6 h2 {
+    font-size: 2em;
+  }
+  .section6 .box3 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section6 .parag1 {
+    font-size: 13px;
+  }
+  .section6 .col1 p {
+    text-align: center;
+  }
+  .section7 h2 {
+    text-align: center;
+  }
+  .section7 p {
+    line-height: 21px;
+  }
+  .section7 .art1,
+  .section7 .art2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section7 img {
+    width: 80%;
+    align-self: center;
+  }
+  .section7 .art2 img {
+    order: 0;
+  }
+  .section8 {
+    row-gap: 20px;
+  }
+  .section8 h2 {
+    text-align: center;
+  }
+  .section8 .parag1 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .section8 .whole .order {
+    flex-basis: 90%;
+    row-gap: 0px;
+  }
+  .section8 .whole {
+    justify-content: center;
+  }
+  .section9 .icons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section9 h2 {
+    font-size: 35px;
+  }
+  .section9 .row4 h3 {
+    font-size: 25px;
+  }
+  .section9 .row4 .parag3 {
+    font-size: 15px;
+  }
+  .section10 h2,
+  .section10 .parag1 {
+    text-align: center;
+  }
+  .section10 .parag1 {
+    font-size: 15px;
+  }
+  .section10 .sech3 h3 {
+    text-align: center;
+  }
+  .section10 .colin .rolin {
+    flex-basis: 100%;
+  }
+  .section10 .colin .rolin .rolin1 p {
+    line-height: 21px;
+  }
+  .container .card .images {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .footer .bottom {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    gap: 10px;
+  }
+  .footer .roww {
+    text-align: center;
+  }
+}
